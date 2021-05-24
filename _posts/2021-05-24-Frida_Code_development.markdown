@@ -20,11 +20,15 @@ Target setup -> Script Setup -> Run Script 입니다.
 현재 활성화된 타겟은 메뉴 아래에 세션(pid)와 클래스명으로 확인 가능하며,
 현재 삽입된 JScode는 2. Show data -> 1. Show current JS code에서 확인 할 수 있습니다.
 
+<br></br>
+* * * 
 ### 사용 가능한 스크립트
 1. Error overloading : 타겟 함수의 오버로딩 값을 얻기 위해 실행하는 스크립트
 2. Trace exception : 얻은 Overloading 값을 통해 Exception 발생시켜  Method에 대한 Call Stack을 얻기 위해 사용하는 스크립트
 3. Trage argument of exception : 2번 스크립트에서 얻은 Call Stack을 활용하여 Call Stack안 메소드들의 Argument 값을 추적하기 위해 사용하는 스크립트
 
+<br></br>
+* * * 
 ### Exception의 Argument 추적을 하기위한 스크립트 사용법
 
 Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면 Argument 추적이 가능합니다.
@@ -37,13 +41,15 @@ Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면
 Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합니다.
 이후 3번 스크립트를 실행합니다.
 
+#### 차후 개선 방안
 - 3번 스크립트 특정 스레드에 대해서만 추적하는 기능 필요
 - Exception Call Stack의 argument에 대한 평문 처리 필요
 다른 앱들에서 활용 가능한 범용성 확장
 iOS에서 활용 가능하도록 코드 구현 필요
 
-
-# 코드 설명 주석 부분
+<br></br>
+* * * 
+### 코드 설명 주석 부분
 프로그램 시작 495 : if __name__ == "__main__":
 프로그램 종료 520 : while(1)의 break;
 
