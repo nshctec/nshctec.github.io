@@ -38,11 +38,11 @@
 	    {% for category in site.categories %}
 	    <li>
 	    	<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-				의사양반 여기요! : {{ root_url }}
-				{{ root_url }}/{{ site.category_dir }}#{{ category | first }}
 				<span class="name">{{ category | first }}</span>
 				<span class="badge">{{ category | last | size }}</span>
 	    	</a>
+		의사양반 여기요! : {{ root_url }}
+		{{ root_url }}/{{ site.category_dir }}#{{ category | first }}
  		</li>
 	    {% endfor %}
 	  </nav>
