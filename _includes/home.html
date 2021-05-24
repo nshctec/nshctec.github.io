@@ -14,6 +14,12 @@
       	<a class="post-link" href="{{ post.url | relative_url }}">
     	    {{ post.title | escape }}
 		</a>
+	      post : {{ post }}
+	      post.title : {{ post.title }}
+	      post.date : {{ post.date }}
+	      post.url : {{ post.url }}
+	      site : {{ site }}
+	      site.posts : {{ site.posts }}
         {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
       </li>
       {%- endfor -%}
