@@ -2,8 +2,9 @@
   <header class="post-header home">
     <div class="post-title">Articles</div>
   </header>
-	      site : {{ site }}
-	      site.posts : {{ site.posts }}
+	site : {{ site }} <br></br>
+	site.posts : {{ site.posts }} <br></br>
+page path : {{ page.path | prepend: site.baseurl }} <br></br>
 
   <div class="post-content">
       {%- if site.posts.size > 0 -%}
