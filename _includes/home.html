@@ -19,11 +19,6 @@ afsdsfsadfasfe
       	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
     	    {{ post.title | escape }}
 		</a>
-	      post : {{ post }}
-	      post.title : {{ post.title }}
-	      post.date : {{ post.date }}
-	      post.url : {{ post.url }}
-	      
         {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
       </li>
       {%- endfor -%}
