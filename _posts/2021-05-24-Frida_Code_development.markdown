@@ -66,7 +66,7 @@ iOS에서 활용 가능하도록 코드 구현 필요
 >ClassFrida : Frida 후킹 클래스
 >>클래스
 >>>ClassExceptionData
->>함수 : 기능별 분류a
+>>함수 : 기능별 분류
 >>>기본
 >>>> run_script : Frida 스크립트 실행
 >>>> select_script : 실행할 스크립트 선택
