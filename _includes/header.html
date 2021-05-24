@@ -21,6 +21,7 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
+            의사 양반 ! {{ my_page.url }}
             <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
