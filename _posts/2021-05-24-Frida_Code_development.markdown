@@ -12,7 +12,7 @@ category: Android_Frida_Development
 ### 목적
 FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 콜 트레이스로 반환된 메소드들의 argument 추적을 할 수 있으면 좋겠다는 마음에 연구를 진행하였습니다. :D
 
-<br></br>
+<br>
 * * * 
 ### 사용법
 기본적인 동작방식은
@@ -20,14 +20,14 @@ Target setup -> Script Setup -> Run Script 입니다.
 현재 활성화된 타겟은 메뉴 아래에 세션(pid)와 클래스명으로 확인 가능하며,
 현재 삽입된 JScode는 2. Show data -> 1. Show current JS code에서 확인 할 수 있습니다.
 
-<br></br>
+<br>
 * * * 
 ### 사용 가능한 스크립트
 1. Error overloading : 타겟 함수의 오버로딩 값을 얻기 위해 실행하는 스크립트
 2. Trace exception : 얻은 Overloading 값을 통해 Exception 발생시켜  Method에 대한 Call Stack을 얻기 위해 사용하는 스크립트
 3. Trage argument of exception : 2번 스크립트에서 얻은 Call Stack을 활용하여 Call Stack안 메소드들의 Argument 값을 추적하기 위해 사용하는 스크립트
 
-<br></br>
+<br>
 * * * 
 ### Exception의 Argument 추적을 하기위한 스크립트 사용법
 
@@ -47,20 +47,21 @@ Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합�
 다른 앱들에서 활용 가능한 범용성 확장
 iOS에서 활용 가능하도록 코드 구현 필요
 
-<br></br>
+<br>
 * * * 
 ### 코드 설명 주석 부분
-프로그램 시작 495 : if __name__ == "__main__":
-프로그램 종료 520 : while(1)의 break;
 
-함수
+> 프로그램 시작 495 : if __name__ == "__main__":
+> 프로그램 종료 520 : while(1)의 break;
+
+###### 함수
   program_log : 프로그램 전역 로깅 함수
 
-클래스
-  Menu : 메인 메뉴 상호작용 및 출력
-    함수
-      show_menu : 메뉴 출력
-      choice_check : 사용자 메뉴 선택값 입력 처리
+###### 클래스 
+>Menu : 메인 메뉴 상호작용 및 출력
+>>함수
+>>>show_menu : 메뉴 출력
+>>>choice_check : 사용자 메뉴 선택값 입력 처리
 
   ClassFrida : Frida 후킹 클래스
     클래스
