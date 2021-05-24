@@ -22,15 +22,13 @@ title: NSHC
 email: nshc.kr@nshc.net
 description: >- # this means to ignore newlines until "baseurl:"
   Carpe diem.
-<<<<<<< HEAD
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/nshctec.github.io" # the subpath of your site, e.g. /blog
 url: "https://hyeonbell.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: HyeonBell
-=======
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://nshctec.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: nshctec
->>>>>>> team/master
+
+#baseurl: "/" # the subpath of your site, e.g. /blog
+#url: "https://nshctec.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#github_username: nshctec
 highlighter: rouge
 svg:
   optimize: true
