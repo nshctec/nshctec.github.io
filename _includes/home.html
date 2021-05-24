@@ -2,6 +2,12 @@
   <header class="post-header home">
     <div class="post-title">Articles</div>
   </header>
+	post : {{ post }}
+	      post.title : {{ post.title }}
+	      post.date : {{ post.date }}
+	      post.url : {{ post.url }}
+	      site : {{ site }}
+	      site.posts : {{ site.posts }}
 
   <div class="post-content">
       {%- if site.posts.size > 0 -%}
@@ -14,12 +20,7 @@
       	<a class="post-link" href="{{ post.url | relative_url }}">
     	    {{ post.title | escape }}
 		</a>
-	      post : {{ post }}
-	      post.title : {{ post.title }}
-	      post.date : {{ post.date }}
-	      post.url : {{ post.url }}
-	      site : {{ site }}
-	      site.posts : {{ site.posts }}
+	      
         {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
       </li>
       {%- endfor -%}
