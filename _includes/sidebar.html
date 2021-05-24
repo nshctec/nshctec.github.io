@@ -36,7 +36,7 @@
   	<ul class="nav">
 			<li class="nav-title">Categories</li>
 	    {% for category in site.categories %}
-	    <li>
+	    <li>의사양반 여기요! : {{ root_url }}
 	    	<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
 				<span class="name">{{ category | first }}</span>
 				<span class="badge">{{ category | last | size }}</span>
