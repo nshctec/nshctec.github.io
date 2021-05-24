@@ -63,11 +63,11 @@ iOS에서 활용 가능하도록 코드 구현 필요
 >>>show_menu : 메뉴 출력
 >>>choice_check : 사용자 메뉴 선택값 입력 처리
 
-  ClassFrida : Frida 후킹 클래스
-    클래스
-      ClassExceptionData
-    함수 : 기능별 분류
-      기본
+>ClassFrida : Frida 후킹 클래스
+>>클래스
+>>>ClassExceptionData
+>>함수 : 기능별 분류
+>>>기본
       run_script : Frida 스크립트 실행
       select_script : 실행할 스크립트 선택
       show_selected_exception : show_exception_data에서 선택한 exception의 call stack을 출력
@@ -75,15 +75,15 @@ iOS에서 활용 가능하도록 코드 구현 필요
       show_exception_data : Exception 정보를 출력
       setup_is_init : Setup하는 Target의 메소드가 생성자인지 확인
 
-      submenu_show_data : Show_data의 서브 메뉴
-      submenu_setup_frida : Setup의 서브 메뉴
+>>>>submenu_show_data : Show_data의 서브 메뉴
+submenu_setup_frida : Setup의 서브 메뉴
 
-     설정 셋업
+>>>설정 셋업
       setup_frida : Target을 셋업하는 함수
       setup_exception_data : Trace할 Exception을 선택
       setup_selected_exception_data : 2번 jscode를 실행 후 만들어진 exception 정보를 trace하기 위해 setup하는 함수
 
-      JScode 생성
+>>>JScode 생성
       setup_exception_trace_code : Exception을 Implementation한 jscode 생성
       setup_err_js_code : Overloading 값을 출력하기 위한 Error 발생 jscode jscode 생성
       create_tracing_exception_args_jscode : argument trace jscode 생성 함수
@@ -91,17 +91,17 @@ iOS에서 활용 가능하도록 코드 구현 필요
       template_check_object_jscode : argument값이 object인지 확인하는 jscode 삽입 함수
       error_wrapper_setup_jscode : setup_err_js_code에서 생성된 jscode를 target에 삽입하는 함수
 
-      검사
+>>>검사
       check_exception_run_count : exception을 저장하기위한 g_count 검사
       check_send : exception 배열을 다음 인덱스로 증가시키기 위한 arguemnt 갯수 확인
       check_setup_script : script가 비어있는지 검사
       check_setup_target : target이 비어있는지 검사
 
-      핸들 == 모니터링 // frida.script.on
+>>>핸들 == 모니터링 // frida.script.on
       monitor_error : 1번 error jscode의 모니터링 함수
       monitor_exception : 2번 exception implementation jscode를 모니터링하는 함수
       monitor_exception_trace : 3번 argument trace jscode 모니터링 함수
 
-      실행 후 처리
+>>>실행 후 처리
       parse_from_parameter : exception jscode에 삽입될 파라미터를 overloading 갯수를 측정하여 param1 , param2 의 형식으로 만들어주는
       parse_selected_exception_data : exception의 callstack을 파싱하는 함수
