@@ -2,7 +2,7 @@
 layout: post
 title: 안드로이드 프리다 코드 개발기
 date: 2021-05-24 17:39:00 +0900
-category: Android_Frida_Development
+category: Mobile
 ---
 # 안녕하세요!
 
