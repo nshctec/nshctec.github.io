@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Frida Exception Argument Trace Code Development
+title: Android Frida Exception Argument Trace Code Sharing
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
