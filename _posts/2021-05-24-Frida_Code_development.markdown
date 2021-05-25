@@ -147,12 +147,16 @@ while(1):
 >>>> parse_selected_exception_data : exception의 callstack을 파싱하는 함수 <br>
 
 <br>
+
 * * *
 ### 차후 개선 방안
 - 3번 스크립트 특정 스레드에 대해서만 추적하는 기능 필요
 - Exception Call Stack의 argument에 대한 평문 처리 필요
 - 다른 앱들에서 활용 가능한 범용성 확장
 - iOS에서 활용 가능하도록 코드 구현 필요
+<br>
+
+* * *
 
 ### 참고
 Frida Javscript API : <https://frida.re/docs/javascript-api/> <br>
