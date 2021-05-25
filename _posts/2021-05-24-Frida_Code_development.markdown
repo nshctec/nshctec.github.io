@@ -185,6 +185,6 @@ while(1):
 <br>
 
 [FridaCodeShare]: <https://codeshare.frida.re/>
-[Frida Javscript API]:  https://frida.re/docs/javascript-api/>
+[Frida Javascript API]:  https://frida.re/docs/javascript-api/>
 [Java.lang.Exception Reference]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true>
 [Frida Snippets]: <https://github.com/iddoeldor/frida-snippets>
