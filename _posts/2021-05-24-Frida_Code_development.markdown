@@ -45,12 +45,14 @@ Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하
 
 <br>
 * * * 
+
 ### 사용법
 기본적인 동작방식은 Target setup -> Script Setup -> Run Script 입니다.<br>
 현재 활성화된 타겟은 메뉴 아래에 세션(pid)와 클래스명으로 확인 가능하며, 현재 삽입된 JScode는 2. Show data -> 1. Show current JS code에서 확인 할 수 있습니다.
 
 <br>
 * * * 
+
 ### 사용 가능한 스크립트
 1. Error overloading : 타겟 함수의 오버로딩 값을 얻기 위해 실행하는 스크립트
 2. Trace exception : 얻은 Overloading 값을 통해 Exception 발생시켜  Method에 대한 Call Stack을 얻기 위해 사용하는 스크립트
@@ -58,6 +60,7 @@ Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하
 
 <br>
 * * * 
+
 ### Exception의 Argument 추적을 하기위한 스크립트 사용법
 
 Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면 Argument 추적이 가능합니다.<br><br>
@@ -73,6 +76,7 @@ Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합�
 
 <br>
 * * * 
+
 ### 코드 설명 주석 부분
 
 > 프로그램 시작 <br>
