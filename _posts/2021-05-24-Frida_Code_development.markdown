@@ -156,9 +156,9 @@ Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 <br>
 안녕하세요! Hyeonbell 입니다. 리버스엔지니어링과 자동화를 좋아합니다.
 * * *
-<a href="https://github.com/HyeonBell"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=Github&logoColor=white"/></a> 
+<a href="https://github.com/HyeonBell"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=Github&logoColor=white"/></a> &nbsp; [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:hyeonbells@gmail.com)](mailto:hyeonbells@gmail.com)
 <br>
 안녕하세요! Hyeonbell 입니다. 리버스엔지니어링과 자동화를 좋아합니다. <br> &nbsp;
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:hyeonbells@gmail.com)](mailto:hyeonbells@gmail.com) &nbsp; 
+ &nbsp; 
 <a href="https://github.com/HyeonBell"><img align="right" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="200" height="200"></a> &nbsp;
 
