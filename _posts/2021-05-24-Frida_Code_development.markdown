@@ -4,8 +4,7 @@ title: Android Exception의 Method Argument 추적 코드
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
-###### TDLR
-> Code : [arg_trace.py]
+###### TDLR; Code=[arg_trace.py]
 
 <br>
 
