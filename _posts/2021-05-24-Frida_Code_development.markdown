@@ -165,7 +165,7 @@ while(1):
 - [Frida Javascript API]
 - [Java.lang.Exception Reference]
 - [Frida Snippets]
-<br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 <a href="https://github.com/HyeonBell"><img align="left" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="180" height="180"></a> 
 <br><br>
