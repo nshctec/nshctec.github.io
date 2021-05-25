@@ -10,7 +10,7 @@ category: Android_Frida_Development
 
 * * *
 ### 목적
-FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 콜 트레이스로 반환된 메소드들의 argument 추적을 할 수 있으면 좋겠다는 마음에 연구를 진행하였습니다. :D
+FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 콜 트레이스로 반환된 메소드들의 argument 추적을 할 수 있으면 좋겠다는 생각으로 개발했습니다. :D
 
 <br>
 * * * 
@@ -31,15 +31,15 @@ Target setup -> Script Setup -> Run Script 입니다.
 * * * 
 ### Exception의 Argument 추적을 하기위한 스크립트 사용법
 
-Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면 Argument 추적이 가능합니다.
-각각의 스크립트 실행전에 결과 반환->결과 활용 인과관계에 대해서 설명하면,
-1번 스크립트의 결과로 Overloading 내역이 런타임 이후 반환되며 반환된 값 중 추적하려는 값을 셋업하면
-2번 스크립트의 Overloading 값으로 2번의 script.on 실행 전, 삽입되는 JScode 상자동으로 들어갑니다.
-2번 스크립트 실행 이후 실행한 스크립트가 후킹되어 동작하면서 확인된 메소드 인스턴스들을 리스트 형태로 반환합니다.
-이 리스트안에 담긴 객체는 각자 런타임에 가졌던 Exception Call Stack 정보를 가지고 있으며, 이를 3번 스크립트에서
-활용하기 위해 1. Setup -> 2. Setup to data that haveto trace in exception result 메뉴에서 원하는 
-Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합니다.
-이후 3번 스크립트를 실행합니다.
+Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면 Argument 추적이 가능합니다.<br><br>
+
+1번 스크립트의 결과로 Overloading 내역이 런타임 이후 반환되며 반환된 값 중 추적하려는 값을 셋업하면<br>
+2번 스크립트의 Overloading 값으로 2번의 script.on 실행 전, 삽입되는 JScode 상자동으로 들어갑니다.<br>
+2번 스크립트 실행 이후 실행한 스크립트가 후킹되어 동작하면서 확인된 메소드 인스턴스들을 리스트 형태로 반환합니다.<br>
+이 리스트안에 담긴 객체는 각자 런타임에 가졌던 Exception Call Stack 정보를 가지고 있으며, 이를 3번 스크립트에서<br>
+활용하기 위해 1. Setup -> 2. Setup to data that haveto trace in exception result 메뉴에서 원하는 <br>
+Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합니다.<br>
+이후 3번 스크립트를 실행합니다.<br>
 
 #### 차후 개선 방안
 - 3번 스크립트 특정 스레드에 대해서만 추적하는 기능 필요
