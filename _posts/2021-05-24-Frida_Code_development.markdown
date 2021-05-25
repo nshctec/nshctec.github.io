@@ -160,7 +160,6 @@ Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 <br>
 
 * * *
- &nbsp; [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:hyeonbells@gmail.com)](mailto:hyeonbells@gmail.com)
 
 <br>
 <br>
