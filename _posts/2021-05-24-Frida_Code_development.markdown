@@ -150,7 +150,7 @@ Java.lang.Exception Reference : <https://docs.oracle.com/javase/7/docs/api/java/
 Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 <br><br><br>
 
-<a href="https://github.com/HyeonBell"><img align="left" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="200" height="200"></a> 
+<a href="https://github.com/HyeonBell"><img align="left" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="180" height="180"></a> 
 <br><br>
 
 ### &nbsp;&nbsp;&nbsp;Shin Hyeon Jong
