@@ -10,10 +10,15 @@ category: Mobile
 * * *
 ### 목적
 FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 콜 트레이스로 반환된 메소드들의 argument 추적을 할 수 있으면 좋겠다는 생각으로 개발했습니다. :D
+<br>
 
+* * *
 
 ### 프로그램 구조
 큰 틀에서 프로그램의 구조를 그려보면, Python으로 짜여진 (여기서는 Javascript를 감싸 실행한다는 의미로 특별한 용어가 없지만 Wrapper 프로그램이라 부르겠습니다.) Wrapper 프로그램이 주 역할을 합니다. Wrapper 프로그램의 역할은 크게 4가지 입니다.
+<br>
+
+* * *
 
 ##### Wrapper 프로그램의 역할 
 1. Frida agent를 제어합니다. (Setup)
