@@ -145,9 +145,9 @@ while(1):
 - iOS에서 활용 가능하도록 코드 구현 필요
 
 ### 참고
-Frida Javscript API : https://frida.re/docs/javascript-api/
-Java.lang.Exception Reference : https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true
-Frida Snippets : https://github.com/iddoeldor/frida-snippets
+Frida Javscript API : https://frida.re/docs/javascript-api/ <br>
+Java.lang.Exception Reference : https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true <br>
+Frida Snippets : https://github.com/iddoeldor/frida-snippets <br>
 
 ### 작성자
 Hyeonbell
