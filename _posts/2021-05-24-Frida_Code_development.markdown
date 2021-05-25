@@ -156,7 +156,7 @@ Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 
 ### &nbsp;&nbsp;&nbsp;Shin Hyeon Jong
 <p align="left">&nbsp;&nbsp;안녕하세요! 리버스엔지니어링과 자동화를 좋아합니다.</p> 
-&nbsp;&nbsp; <a href="https://github.com/HyeonBell"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=Github&logoColor=white"/></a> &nbsp; 
+&nbsp;&nbsp; <a href="https://github.com/HyeonBell"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=Github&logoColor=white"/></a> &nbsp; [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:hyeonbells@gmail.com)](mailto:hyeonbells@gmail.com)
 <br>
 
 * * *
