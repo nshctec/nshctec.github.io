@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Frida Exception Argument Trace Code Sharing
+title: Sharing the trace code of exception argument using frida on android
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
