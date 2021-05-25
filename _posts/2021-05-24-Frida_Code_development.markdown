@@ -14,11 +14,12 @@ category: Mobile
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+### TDLR;
+> CODE : [arg_trace.py]
+
 ### 목적
 [FridaCodeShare]와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 <br> 
 콜 트레이스로 반환된 메소드들의 argument 추적을 할 수 있으면 좋겠다는 생각으로 개발했습니다.
-#### code: [arg_trace.py]
-
 <br><br>
 
 * * *
