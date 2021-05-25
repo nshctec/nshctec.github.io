@@ -69,9 +69,12 @@ Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면
 
 ##### 권장하는 스크립트 실행순서
 1. 1번 스크립트의 결과로 Overloading 내역이 런타임 이후 반환되며 반환된 값 중 추적하려는 값을 셋업하면 2번 스크립트의 Overloading 값으로 2번의 script.on 실행 전, 삽입되는 JScode에 자동으로 정보가 삽입됩니다.
+<br>
 2. 2번 스크립트 삽입으로 앱을 다시 셋업하여 실행하면 스크립트가 후킹되어 동작하면서 런타임 때 확인된 메소드 인스턴스들을 리스트 형태로 반환합니다. 
   > 리스트안에 담긴 객체는 각자 런타임 때 생성된 Exception Call Stack 정보를 가지고 있습니다.
+<br>
 3. 이를 3번 스크립트에서 활용하기 위해 1. Setup -> 2. Setup to data that haveto trace in exception result 메뉴에서 원하는 Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합니다.
+<br>
 4. 이후 3번 스크립트를 실행합니다.
 <br>
 
