@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 안드로이드 프리다 코드 개발기
+title: Android Frida Exception Argument Trace Code Development
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
