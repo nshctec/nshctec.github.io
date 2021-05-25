@@ -5,14 +5,14 @@ date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
 
-<br><br>
+<br>
 
 # 안녕하세요!
 > 첫 포스트입니다. 잘 부탁드립니다.
 
 * * *
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### 목적
 FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 <br> 
