@@ -53,11 +53,6 @@ Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면
 Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합니다.<br>
 이후 3번 스크립트를 실행합니다.<br>
 
-#### 차후 개선 방안
-- 3번 스크립트 특정 스레드에 대해서만 추적하는 기능 필요
-- Exception Call Stack의 argument에 대한 평문 처리 필요
-다른 앱들에서 활용 가능한 범용성 확장
-iOS에서 활용 가능하도록 코드 구현 필요
 
 <br>
 * * * 
@@ -116,4 +111,11 @@ iOS에서 활용 가능하도록 코드 구현 필요
 >>>실행 후 처리 <br>
 >>>> parse_from_parameter : exception jscode에 삽입될 파라미터를 overloading 갯수를 측정하여 param1 , param2 의 형식으로 만들어주는 함수 <br>
 >>>> parse_selected_exception_data : exception의 callstack을 파싱하는 함수 <br>
- 
+
+<br>
+* * *
+#### 차후 개선 방안
+- 3번 스크립트 특정 스레드에 대해서만 추적하는 기능 필요
+- Exception Call Stack의 argument에 대한 평문 처리 필요
+다른 앱들에서 활용 가능한 범용성 확장
+iOS에서 활용 가능하도록 코드 구현 필요
