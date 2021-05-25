@@ -149,6 +149,7 @@ Frida Javscript API : <https://frida.re/docs/javascript-api/> <br>
 Java.lang.Exception Reference : <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true> <br>
 Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 
-### 작성자
-Hyeonbell : <https://github.com/HyeonBell>
+
+
+<a href="https://github.com/HyeonBell"><img src="https://avatars.githubusercontent.com/u/22285792?v=4"></a>
 
