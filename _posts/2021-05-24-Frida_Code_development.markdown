@@ -14,7 +14,22 @@ FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception
 
 ### 프로그램 구조
 큰 틀에서 프로그램의 구조를 그려보면, Python으로 짜여진 (여기서는 Javascript를 감싸 실행한다는 의미로 특별한 용어가 없지만 Wrapper 프로그램이라 부르겠습니다.) Wrapper 프로그램이 주 역할을 합니다. Wrapper 프로그램의 역할은 크게 4가지 입니다.
+```
+-------------------------------------------------
+        Trace exception argument in runtime
+-------------------------------------------------
+[*] Status : SESSION : Session(pid=27306), TARGET : test.test.app
 
+1. Setup
+2. Show data
+3. Setup to script
+4. Run script
+5. Overloading Calculate --> Not yet no implement.
+6. Exit
+
+
+>
+```
 1. Frida agent를 제어합니다. (Setup)
 2. Frida Javascript 실행 시에 삽입될 정보를 전처리합니다.
 3. Frida Javascript를 생성합니다.
@@ -29,6 +44,9 @@ Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하
 ### 사용법
 기본적인 동작방식은 Target setup -> Script Setup -> Run Script 입니다.<br>
 현재 활성화된 타겟은 메뉴 아래에 세션(pid)와 클래스명으로 확인 가능하며, 현재 삽입된 JScode는 2. Show data -> 1. Show current JS code에서 확인 할 수 있습니다.
+```
+
+```
 
 <br>
 * * * 
