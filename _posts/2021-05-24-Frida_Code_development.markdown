@@ -149,7 +149,7 @@ Frida Javscript API : <https://frida.re/docs/javascript-api/> <br>
 Java.lang.Exception Reference : <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true> <br>
 Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 <br><br>
-<a href="https://github.com/HyeonBell"><img align="right" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="200" height="200"></a>
+<a href="https://github.com/HyeonBell"><img align="left" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="200" height="200"></a>
 <br><br><br><br>
 
 ### Shin Hyeon Jong
