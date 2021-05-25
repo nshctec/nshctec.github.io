@@ -149,7 +149,8 @@ Frida Javscript API : <https://frida.re/docs/javascript-api/> <br>
 Java.lang.Exception Reference : <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true> <br>
 Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 
-
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=Github&logoColor=black"/>
-<a href="https://github.com/HyeonBell"><img src="https://avatars.githubusercontent.com/u/22285792?v=4"></a>
+<p align="center">
+        
+<a href="https://github.com/HyeonBell"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=Github&logoColor=black"/></a>
+</p>
 
