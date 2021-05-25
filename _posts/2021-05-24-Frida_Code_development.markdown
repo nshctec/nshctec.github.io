@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 프리다 코드 개발기
+title: 안드로이드 프리다 코드 개발기
 date: 2021-05-24 17:39:00 +0900
 category: Android_Frida_Development
 ---
@@ -11,6 +11,18 @@ category: Android_Frida_Development
 * * *
 ### 목적
 FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 콜 트레이스로 반환된 메소드들의 argument 추적을 할 수 있으면 좋겠다는 생각으로 개발했습니다. :D
+
+### 프로그램 구조
+큰 틀에서 프로그램의 구조를 그려보면, Python으로 짜여진 (여기서는 Javascript를 감싸 실행한다는 의미로 특별한 용어가 없지만 Wrapper 프로그램이라 부르겠습니다.) Wrapper 프로그램이 주 역할을 합니다. Wrapper 프로그램의 역할은 크게 4가지 입니다.
+
+1. Frida agent를 제어합니다. (Setup)
+2. Frida Javascript 실행 시에 삽입될 정보를 전처리합니다.
+3. Frida Javascript를 생성합니다.
+3. 실행 후 런타임 때 반환된 정보를 후처리합니다.
+
+Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하는 것을 의미합니다. 
+
+
 
 <br>
 * * * 
