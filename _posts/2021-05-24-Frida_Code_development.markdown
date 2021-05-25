@@ -153,7 +153,7 @@ Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 <br><br><br><br>
 
 ### Shin Hyeon Jong
-<p align="left">안녕하세요! Hyeonbell 입니다. 리버스엔지니어링과 자동화를 좋아합니다.</p>
+<p align="left">안녕하세요! 리버스엔지니어링과 자동화를 좋아합니다.</p>
 <br>
 
 * * *
