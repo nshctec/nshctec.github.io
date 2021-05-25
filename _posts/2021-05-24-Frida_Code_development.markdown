@@ -56,8 +56,8 @@ Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하
 1. Error overloading : 타겟 함수의 오버로딩 값을 얻기 위해 실행하는 스크립트
 2. Trace exception : 얻은 Overloading 값을 통해 Exception 발생시켜  Method에 대한 Call Stack을 얻기 위해 사용하는 스크립트
 3. Trage argument of exception : 2번 스크립트에서 얻은 Call Stack을 활용하여 Call Stack안 메소드들의 Argument 값을 추적하기 위해 사용하는 스크립트
-
 <br>
+
 * * * 
 
 ### Exception의 Argument 추적을 하기위한 스크립트 사용법
