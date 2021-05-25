@@ -23,7 +23,7 @@ FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception
 
 ### 프로그램 구조
 큰 틀에서 프로그램의 구조를 그려보면, Python으로 짜여진 (여기서는 Javascript를 감싸 실행한다는 의미로 특별한 용어가 없지만 Wrapper 프로그램이라 부르겠습니다.) Wrapper 프로그램이 주 역할을 합니다. Wrapper 프로그램의 역할은 크게 4가지 입니다.
-<br><br><br>
+<br><br>
 
 ##### Wrapper 프로그램의 역할 
 1. Frida agent를 제어합니다. (Setup)
@@ -33,7 +33,7 @@ FridaCodeshare와 같은 사이트에 공개된 일반적인 java.lang.Exception
 
 Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하는 것을 의미합니다.<br>
 또 실행에 필요한 정보들을 런타임 전후에 알맞게 처리하며, 이는 데이터를 정규식을 이용해 파싱하여 적절하게 데이터를 자르고 활용 가능한 정보로 만드는 것을 말합니다.<br>
-<br><br><br>
+<br><br>
 
 * * * 
 
@@ -58,7 +58,7 @@ Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하
 
 >
 ```
-<br><br><br>
+<br><br>
 
 * * * 
 
@@ -80,7 +80,7 @@ Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면
   > 리스트안에 담긴 객체는 각자 런타임 때 생성된 Exception Call Stack 정보를 가지고 있습니다.
 3. 이를 3번 스크립트에서 활용하기 위해 1. Setup -> 2. Setup to data that haveto trace in exception result 메뉴에서 원하는 Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합니다.
 4. 이후 3번 스크립트를 실행합니다.
-<br><br><br>
+<br><br>
 
 * * * 
 
@@ -149,7 +149,7 @@ while(1):
 >>>> parse_from_parameter : exception jscode에 삽입될 파라미터를 overloading 갯수를 측정하여 param1 , param2 의 형식으로 만들어주는 함수 <br>
 >>>> parse_selected_exception_data : exception의 callstack을 파싱하는 함수 <br>
 
-<br><br><br>
+<br><br>
 
 * * *
 ### 차후 개선 방안
@@ -157,7 +157,7 @@ while(1):
 - Exception Call Stack의 argument에 대한 평문 처리 필요
 - 다른 앱들에서 활용 가능한 범용성 확장
 - iOS에서 활용 가능하도록 코드 구현 필요
-<br><br><br>
+<br><br>
 
 * * *
 
@@ -165,7 +165,7 @@ while(1):
 Frida Javscript API : <https://frida.re/docs/javascript-api/> <br>
 Java.lang.Exception Reference : <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true> <br>
 Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
-<br><br><br>
+<br><br>
 
 <a href="https://github.com/HyeonBell"><img align="left" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="180" height="180"></a> 
 <br><br>
