@@ -143,3 +143,11 @@ while(1):
 - Exception Call Stack의 argument에 대한 평문 처리 필요
 - 다른 앱들에서 활용 가능한 범용성 확장
 - iOS에서 활용 가능하도록 코드 구현 필요
+
+### 참고
+Frida Javscript API : https://frida.re/docs/javascript-api/
+Java.lang.Exception Reference : https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true
+Frida Snippets : https://github.com/iddoeldor/frida-snippets
+
+### 작성자
+Hyeonbell
