@@ -4,10 +4,6 @@ title: Android Exception의 Method Argument 추적 코드
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
-###### TDLR; Code=[arg_trace.py]
-
-* * *
-
 <br>
 
 # 안녕하세요!
@@ -20,6 +16,12 @@ category: Mobile
 ### 목적
 [FridaCodeShare]와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 <br> 
 콜 트레이스로 반환된 메소드들의 argument 추적을 할 수 있으면 좋겠다는 생각으로 개발했습니다.
+<br><br>
+
+* * *
+
+### 코드 다운로드
+- Github : [arg_trace.py]
 <br><br>
 
 * * *
