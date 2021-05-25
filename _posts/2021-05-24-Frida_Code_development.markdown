@@ -68,40 +68,40 @@ iOS에서 활용 가능하도록 코드 구현 필요
 >>>ClassExceptionData
 >>함수 : 기능별 분류
 >>>기본
->>>> run_script : Frida 스크립트 실행
->>>> select_script : 실행할 스크립트 선택
->>>> show_selected_exception : show_exception_data에서 선택한 exception의 call stack을 출력
->>>> show_script : 현재 설정된 스크립트를 출력
->>>> show_exception_data : Exception 정보를 출력
->>>> setup_is_init : Setup하는 Target의 메소드가 생성자인지 확인
->>>> submenu_show_data : Show_data의 서브 메뉴
->>>> submenu_setup_frida : Setup의 서브 메뉴
+>>>> run_script : Frida 스크립트 실행 <br>
+>>>> select_script : 실행할 스크립트 선택 <br>
+>>>> show_selected_exception : show_exception_data에서 선택한 exception의 call stack을 출력 <br>
+>>>> show_script : 현재 설정된 스크립트를 출력 <br>
+>>>> show_exception_data : Exception 정보를 출력 <br>
+>>>> setup_is_init : Setup하는 Target의 메소드가 생성자인지 확인 <br>
+>>>> submenu_show_data : Show_data의 서브 메뉴 <br>
+>>>> submenu_setup_frida : Setup의 서브 메뉴 <br>
 
 >>>설정 셋업
->>>> setup_frida : Target을 셋업하는 함수
->>>> setup_exception_data : Trace할 Exception을 선택
->>>> setup_selected_exception_data : 2번 jscode를 실행 후 만들어진 exception 정보를 trace하기 위해 setup하는 함수
+>>>> setup_frida : Target을 셋업하는 함수 <br>
+>>>> setup_exception_data : Trace할 Exception을 선택 <br>
+>>>> setup_selected_exception_data : 2번 jscode를 실행 후 만들어진 exception 정보를 trace하기 위해 setup하는 함수 <br>
 
 >>>JScode 생성
->>>> setup_exception_trace_code : Exception을 Implementation한 jscode 생성
->>>> setup_err_js_code : Overloading 값을 출력하기 위한 Error 발생 jscode jscode 생성
->>>> create_tracing_exception_args_jscode : argument trace jscode 생성 함수
->>>> template_jscode : Argument Trace jscode를 생성하는 클로저 반환 함수
->>>> template_check_object_jscode : argument값이 object인지 확인하는 jscode 삽입 함수
->>>> error_wrapper_setup_jscode : setup_err_js_code에서 생성된 jscode를 target에 삽입하는 함수
+>>>> setup_exception_trace_code : Exception을 Implementation한 jscode 생성 <br>
+>>>> setup_err_js_code : Overloading 값을 출력하기 위한 Error 발생 jscode jscode 생성 <br>
+>>>> create_tracing_exception_args_jscode : argument trace jscode 생성 함수 <br>
+>>>> template_jscode : Argument Trace jscode를 생성하는 클로저 반환 함수 <br>
+>>>> template_check_object_jscode : argument값이 object인지 확인하는 jscode 삽입 함수 <br>
+>>>> error_wrapper_setup_jscode : setup_err_js_code에서 생성된 jscode를 target에 삽입하는 함수 <br>
 
->>> 검사
->>>> check_exception_run_count : exception을 저장하기위한 g_count 검사
->>>> check_send : exception 배열을 다음 인덱스로 증가시키기 위한 arguemnt 갯수 확인
->>>> check_setup_script : script가 비어있는지 검사
->>>> check_setup_target : target이 비어있는지 검사
+>>> 검사 <br>
+>>>> check_exception_run_count : exception을 저장하기위한 g_count 검사 <br>
+>>>> check_send : exception 배열을 다음 인덱스로 증가시키기 위한 arguemnt 갯수 확인 <br>
+>>>> check_setup_script : script가 비어있는지 검사 <br>
+>>>> check_setup_target : target이 비어있는지 검사 <br>
+ 
+>>>핸들 == 모니터링 // frida.script.on <br>
+>>>> monitor_error : 1번 error jscode의 모니터링 함수 <br>
+>>>> monitor_exception : 2번 exception implementation jscode를 모니터링하는 함수 <br>
+>>>> monitor_exception_trace : 3번 argument trace jscode 모니터링 함수 <br>
 
->>>핸들 == 모니터링 // frida.script.on
->>>> monitor_error : 1번 error jscode의 모니터링 함수
->>>> monitor_exception : 2번 exception implementation jscode를 모니터링하는 함수
->>>> monitor_exception_trace : 3번 argument trace jscode 모니터링 함수
-
->>>실행 후 처리
->>>> parse_from_parameter : exception jscode에 삽입될 파라미터를 overloading 갯수를 측정하여 param1 , param2 의 형식으로 만들어주는
->>>> parse_selected_exception_data : exception의 callstack을 파싱하는 함수
+>>>실행 후 처리 <br>
+>>>> parse_from_parameter : exception jscode에 삽입될 파라미터를 overloading 갯수를 측정하여 param1 , param2 의 형식으로 만들어주는 함수 <br>
+>>>> parse_selected_exception_data : exception의 callstack을 파싱하는 함수 <br>
  
