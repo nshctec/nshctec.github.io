@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Exception의 method argument 추적 코드 
+title: Android Exception의 Method Argument 추적 코드 
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
