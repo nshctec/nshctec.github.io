@@ -4,6 +4,8 @@ title: Android Exception의 Method Argument 추적 코드
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
+###### TDLR
+> Code : [arg_trace.py]
 
 <br>
 
@@ -13,13 +15,6 @@ category: Mobile
 * * *
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-### TDLR;
-> CODE : [arg_trace.py]
-
-<br><br>
-
-* * *
 
 ### 목적
 [FridaCodeShare]와 같은 사이트에 공개된 일반적인 java.lang.Exception Hooking 코드를 사용할 때 <br> 
