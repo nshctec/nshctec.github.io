@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sharing the trace code of exception argument using frida on android
+title: Android상에서 발생한 Exception의 argument 추적 코드 공유
 date: 2021-05-24 17:39:00 +0900
 category: Mobile
 ---
