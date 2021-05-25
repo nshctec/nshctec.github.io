@@ -152,7 +152,7 @@ Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 <p align="center">
         
 </p>
-<a href="https://github.com/HyeonBell"><img src="https://avatars.githubusercontent.com/u/22285792?v=4" width="50%" height="50%"></a>
+<a href="https://github.com/HyeonBell"><img src="https://avatars.githubusercontent.com/u/22285792?v=4" width="200" height="200"></a>
 <a href="https://github.com/HyeonBell"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=Github&logoColor=white"/></a>
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:hyeonbells@gmail.com)](mailto:hyeonbells@gmail.com)
