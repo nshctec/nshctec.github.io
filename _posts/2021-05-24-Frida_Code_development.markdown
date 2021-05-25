@@ -77,7 +77,7 @@ Setup to Script의 메뉴 1.->2.->3.을 순차적으로 Setup하여 실행하면
   > 리스트안에 담긴 객체는 각자 런타임 때 생성된 Exception Call Stack 정보를 가지고 있습니다.
 3. 이를 3번 스크립트에서 활용하기 위해 1. Setup -> 2. Setup to data that haveto trace in exception result 메뉴에서 원하는 Exception 인스턴스를 선택하여 3번 스크립트 실행전에 셋업합니다.
 4. 이후 3번 스크립트를 실행합니다.
-<br>
+<br><br>
 
 * * * 
 
