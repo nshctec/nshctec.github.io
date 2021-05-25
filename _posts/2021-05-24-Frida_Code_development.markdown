@@ -35,11 +35,15 @@ Frida agent를 제어하는 것은 사용자가 원하는 클래스를 셋업하
 또 실행에 필요한 정보들을 런타임 전후에 알맞게 처리하며, 이는 데이터를 정규식을 이용해 파싱하여 적절하게 데이터를 자르고 활용 가능한 정보로 만드는 것을 말합니다.<br>
 <br><br>
 
+### 코드
+## [arg_trace.py]
+
 * * * 
 
 ### 사용법
 기본적인 동작방식은 Target setup -> Script Setup -> Run Script 입니다.<br>
 현재 활성화된 타겟은 메뉴 아래에 세션(pid)와 클래스명으로 확인 가능하며, 현재 삽입된 JScode는 2. Show data -> 1. Show current JS code에서 확인 할 수 있습니다.
+
 <br>
 ##### 메인 메뉴
 ```
@@ -184,6 +188,7 @@ while(1):
 <br>
 <br>
 
+[arg_trace.py]: <https://github.com/HyeonBell/Tool/tree/master/frida-script>
 [FridaCodeShare]: <https://codeshare.frida.re/>
 [Frida Javascript API]:  https://frida.re/docs/javascript-api/>
 [Java.lang.Exception Reference]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true>
