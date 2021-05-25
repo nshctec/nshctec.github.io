@@ -162,9 +162,9 @@ while(1):
 * * *
 
 ### 참고
-Frida Javscript API : <https://frida.re/docs/javascript-api/> <br>
-Java.lang.Exception Reference : <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true> <br>
-Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
+- [Frida Javascript API]
+- [Java.lang.Exception Reference]
+- [Frida Snippets]
 <br><br>
 
 <a href="https://github.com/HyeonBell"><img align="left" src="https://avatars.githubusercontent.com/u/22285792?v=4" width="180" height="180"></a> 
@@ -185,3 +185,6 @@ Frida Snippets : <https://github.com/iddoeldor/frida-snippets> <br>
 <br>
 
 [FridaCodeShare]: <https://codeshare.frida.re/>
+[Frida Javscript API]:  https://frida.re/docs/javascript-api/>
+[Java.lang.Exception Reference]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html?is-external=true>
+[Frida Snippets]: <https://github.com/iddoeldor/frida-snippets>
